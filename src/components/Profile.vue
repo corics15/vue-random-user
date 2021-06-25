@@ -60,7 +60,7 @@
       }
 
       const getLorem = async () => {
-        await fetch('http://metaphorpsum.com/paragraphs/1/4')
+        await fetch('https://baconipsum.com/api/?type=meat-and-filler&paras=1&format=text')
           .then((response) => response.text())
           .then((data) => name.info = data)
       }
