@@ -139,4 +139,19 @@
   button:hover {
     background-color: #5aca69;
   }
+@media all and (max-width: 360px) {
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-info h3, .profile-info .addr, .profile-info .email {
+    display: block;
+    margin: 0 auto;
+  }
+  .short-info {
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: smaller;
+  }
+}
 </style>
